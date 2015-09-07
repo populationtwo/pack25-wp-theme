@@ -1,0 +1,59 @@
+/*------------------------------------------------------------------
+
+5.  FOOTER
+
+------------------------------------------------------------------*/
+.footer-container {
+    background: $accent-three;
+}
+
+#footer {
+    padding-bottom: rem-calc(20);
+    padding-top: rem-calc(20);
+    ul {
+        padding-left: 0;
+        margin-bottom: rem-calc(6);
+    }
+    li {
+        list-style: none;
+        padding-bottom: rem-calc(10);
+        line-height: 1.5;
+    }
+    a, address {
+        color: #FFF;
+    }
+    span.date {
+        padding-left: rem-calc(5);
+        color: $accent-one;
+    }
+    h4 {
+        text-transform: uppercase;
+        color: $accent-two;
+        margin-bottom: rem-calc(15);
+        font-weight: 400;
+    }
+}
+
+#footer-bottom {
+    border-top: solid 1px rgba(255,255,255,0.3);
+    clear: both;
+    padding-top: rem-calc(10);
+    color: white;
+    position: relative;
+}
+
+#footer-note {
+    text-align: right;
+    a {
+        color: white;
+    }
+}
+
+#toTop {
+    //background: url(../img/top-arrow-btn-3.png) no-repeat 0 2px;
+    line-height: 1.6;
+    //padding: 0 0 0 rem-calc(24);
+    cursor: pointer;
+    color: #FFF;
+
+}
