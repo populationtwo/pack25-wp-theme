@@ -84,3 +84,20 @@ Author: Population2
 ------------------------------------------------------------------*/
 // State rules are ways to describe how the layouts will look when in a particular state.
 @import "state/media-queries";
+
+.tribe-events-list-widget {
+	ol {
+		margin-left: 0;
+		li {
+			margin-bottom: rem-calc(12);
+		}
+	}
+	h4.entry-title {
+		font-size: rem-calc(16);
+		margin-bottom: rem-calc(4) !important;
+	}
+	.duration {
+		font-weight: 400;
+		font-size: rem-calc(14);
+	}
+}

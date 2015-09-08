@@ -231,3 +231,4 @@ pip-log.txt
 .idea/vcs.xml
 .sass-cache/
 node_modules/
+.idea/
